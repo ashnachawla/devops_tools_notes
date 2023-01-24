@@ -1,0 +1,45 @@
+How do you know how much memory your java application is taking on Linux?
+---> pmap or top is probably the simplest. Just be sure not to confuse virtual memory with physical. Less
+---> ps aux | grep -i
+---> jps |awk "{print $1}" | xargs -L 1 ps -ef -o %mem
+
+
+
+
+How do you stay organized? Describe tools and techniques.
+---> I use Outlook for email, contacts, calendar, and tasks in the work environment, and I use OneNote to collect and search through important notes. With my smartphone I use Google's calendar, gmail, and search. 
+
+
+
+
+Describe the difference between TCP and UDP.
+--->1. TCP is a connection-oriented protocol, whereas UDP is a connectionless protocol. 
+--->2. A key difference between TCP and UDP is speed, as TCP is comparatively slower than UDP
+
+
+
+
+---> what is TCP
+          Transmission Control protocol
+          
+---> what is TCP used for
+          TCP used to organize data to ensure secure transmission between server and client
+         
+---> what is UDP
+         USer datagram protocol  is a connectionless communication protocol.
+---> what is UDP used for 
+         it is used for time-critical data transmissions such as DNS lookups, online gaming, and video streaming.
+
+
+
+
+
+how do you connect to your Linux servers?
+--->using ssh ssh -i [path to private key] [username]@[destination ip address]
+
+
+
+If a developer came up to you and just said "Oh this is broken and I'm not sure what's wrong with it, can you help me," how would you begin troubleshooting?
+---> 
+
+          
